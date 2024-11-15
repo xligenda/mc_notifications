@@ -1,0 +1,6 @@
+
+{
+  "latestLogPath": "../logs/latest.log",
+  "soundPath": "./sound.mp3",
+  "targetWords": ["nickname", "ping"]
+}
