@@ -56,7 +56,7 @@ func getLatestLog(filePath string) string { //find file latest.log if exists and
 func isPingRequired(line string, targetWords []string) bool {
 	for _, element := range strings.Fields(line) {
 		for _, targetWord := range targetWords {
-			if element == targetWord {
+			if strings.ToLower(element) == strings.ToLower(targetWord) {
 				return true
 			}
 		}
